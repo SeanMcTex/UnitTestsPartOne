@@ -19,8 +19,6 @@
 		2164704717C797B30033CB9D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2164704617C797B30033CB9D /* XCTest.framework */; };
 		2164704817C797B30033CB9D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2164702717C797B20033CB9D /* Foundation.framework */; };
 		2164704917C797B30033CB9D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2164702B17C797B20033CB9D /* UIKit.framework */; };
-		2164705117C797B30033CB9D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2164704F17C797B30033CB9D /* InfoPlist.strings */; };
-		2164705317C797B30033CB9D /* UnitTestsPartOneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2164705217C797B30033CB9D /* UnitTestsPartOneTests.m */; };
 		2164706117C798060033CB9D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2164702717C797B20033CB9D /* Foundation.framework */; };
 		2164706217C798060033CB9D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2164702917C797B20033CB9D /* CoreGraphics.framework */; };
 		2164706317C798060033CB9D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2164702B17C797B20033CB9D /* UIKit.framework */; };
@@ -30,6 +28,15 @@
 		2164707817C798070033CB9D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2164702717C797B20033CB9D /* Foundation.framework */; };
 		2164707917C798070033CB9D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2164702B17C797B20033CB9D /* UIKit.framework */; };
 		216471C017C7991C0033CB9D /* GHUnitIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 216471BF17C7991C0033CB9D /* GHUnitIOS.framework */; };
+		216471C317C79AC10033CB9D /* MMViewControllerTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 216471C217C79AC10033CB9D /* MMViewControllerTestCase.m */; };
+		216471C617C79BC50033CB9D /* MMMainViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 216471C517C79BC50033CB9D /* MMMainViewControllerTests.m */; };
+		216471C717C79C3B0033CB9D /* MMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2164703D17C797B20033CB9D /* MMViewController.m */; };
+		216471CB17C79EED0033CB9D /* MMSecondaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 216471C917C79EED0033CB9D /* MMSecondaryViewController.m */; };
+		216471CC17C79EED0033CB9D /* MMSecondaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 216471C917C79EED0033CB9D /* MMSecondaryViewController.m */; };
+		216471CD17C79EED0033CB9D /* MMSecondaryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 216471CA17C79EED0033CB9D /* MMSecondaryViewController.xib */; };
+		216471CE17C79EED0033CB9D /* MMSecondaryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 216471CA17C79EED0033CB9D /* MMSecondaryViewController.xib */; };
+		216471D017C79F5E0033CB9D /* MMSecondaryViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 216471CF17C79F5E0033CB9D /* MMSecondaryViewControllerTests.m */; };
+		216471D117C79F5E0033CB9D /* MMSecondaryViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 216471CF17C79F5E0033CB9D /* MMSecondaryViewControllerTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,9 +73,6 @@
 		2164703F17C797B20033CB9D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2164704517C797B30033CB9D /* UnitTestsPartOneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTestsPartOneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2164704617C797B30033CB9D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		2164704E17C797B30033CB9D /* UnitTestsPartOneTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UnitTestsPartOneTests-Info.plist"; sourceTree = "<group>"; };
-		2164705017C797B30033CB9D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		2164705217C797B30033CB9D /* UnitTestsPartOneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnitTestsPartOneTests.m; sourceTree = "<group>"; };
 		2164706017C798060033CB9D /* GHUnitTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHUnitTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2164706617C798060033CB9D /* GHUnitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GHUnitTests-Info.plist"; sourceTree = "<group>"; };
 		2164706817C798060033CB9D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -76,6 +80,13 @@
 		2164706C17C798060033CB9D /* GHUnitTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GHUnitTests-Prefix.pch"; sourceTree = "<group>"; };
 		2164707617C798070033CB9D /* GHUnitTestsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GHUnitTestsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		216471BF17C7991C0033CB9D /* GHUnitIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GHUnitIOS.framework; path = "gh-unit/Examples/MyTestable-iOS/GHUnitIOS.framework"; sourceTree = "<group>"; };
+		216471C117C79AC10033CB9D /* MMViewControllerTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMViewControllerTestCase.h; sourceTree = "<group>"; };
+		216471C217C79AC10033CB9D /* MMViewControllerTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMViewControllerTestCase.m; sourceTree = "<group>"; };
+		216471C517C79BC50033CB9D /* MMMainViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMMainViewControllerTests.m; sourceTree = "<group>"; };
+		216471C817C79EED0033CB9D /* MMSecondaryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMSecondaryViewController.h; sourceTree = "<group>"; };
+		216471C917C79EED0033CB9D /* MMSecondaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMSecondaryViewController.m; sourceTree = "<group>"; };
+		216471CA17C79EED0033CB9D /* MMSecondaryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MMSecondaryViewController.xib; sourceTree = "<group>"; };
+		216471CF17C79F5E0033CB9D /* MMSecondaryViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMSecondaryViewControllerTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,7 +138,6 @@
 			isa = PBXGroup;
 			children = (
 				2164702D17C797B20033CB9D /* UnitTestsPartOne */,
-				2164704C17C797B30033CB9D /* UnitTestsPartOneTests */,
 				2164706417C798060033CB9D /* GHUnitTests */,
 				2164702617C797B20033CB9D /* Frameworks */,
 				2164702517C797B20033CB9D /* Products */,
@@ -167,6 +177,9 @@
 				2164703D17C797B20033CB9D /* MMViewController.m */,
 				2164703F17C797B20033CB9D /* Images.xcassets */,
 				2164702E17C797B20033CB9D /* Supporting Files */,
+				216471C817C79EED0033CB9D /* MMSecondaryViewController.h */,
+				216471C917C79EED0033CB9D /* MMSecondaryViewController.m */,
+				216471CA17C79EED0033CB9D /* MMSecondaryViewController.xib */,
 			);
 			path = UnitTestsPartOne;
 			sourceTree = "<group>";
@@ -182,28 +195,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		2164704C17C797B30033CB9D /* UnitTestsPartOneTests */ = {
-			isa = PBXGroup;
-			children = (
-				2164705217C797B30033CB9D /* UnitTestsPartOneTests.m */,
-				2164704D17C797B30033CB9D /* Supporting Files */,
-			);
-			path = UnitTestsPartOneTests;
-			sourceTree = "<group>";
-		};
-		2164704D17C797B30033CB9D /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				2164704E17C797B30033CB9D /* UnitTestsPartOneTests-Info.plist */,
-				2164704F17C797B30033CB9D /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		2164706417C798060033CB9D /* GHUnitTests */ = {
 			isa = PBXGroup;
 			children = (
 				2164706517C798060033CB9D /* Supporting Files */,
+				216471C117C79AC10033CB9D /* MMViewControllerTestCase.h */,
+				216471C217C79AC10033CB9D /* MMViewControllerTestCase.m */,
+				216471C517C79BC50033CB9D /* MMMainViewControllerTests.m */,
+				216471CF17C79F5E0033CB9D /* MMSecondaryViewControllerTests.m */,
 			);
 			path = GHUnitTests;
 			sourceTree = "<group>";
@@ -340,6 +339,7 @@
 				2164704017C797B20033CB9D /* Images.xcassets in Resources */,
 				2164703217C797B20033CB9D /* InfoPlist.strings in Resources */,
 				2164703B17C797B20033CB9D /* Main.storyboard in Resources */,
+				216471CD17C79EED0033CB9D /* MMSecondaryViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,7 +347,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2164705117C797B30033CB9D /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +355,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2164706917C798060033CB9D /* InfoPlist.strings in Resources */,
+				216471CE17C79EED0033CB9D /* MMSecondaryViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,7 +375,9 @@
 			files = (
 				2164703817C797B20033CB9D /* MMAppDelegate.m in Sources */,
 				2164703E17C797B20033CB9D /* MMViewController.m in Sources */,
+				216471D017C79F5E0033CB9D /* MMSecondaryViewControllerTests.m in Sources */,
 				2164703417C797B20033CB9D /* main.m in Sources */,
+				216471CB17C79EED0033CB9D /* MMSecondaryViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,7 +385,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2164705317C797B30033CB9D /* UnitTestsPartOneTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,6 +392,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				216471CC17C79EED0033CB9D /* MMSecondaryViewController.m in Sources */,
+				216471C617C79BC50033CB9D /* MMMainViewControllerTests.m in Sources */,
+				216471D117C79F5E0033CB9D /* MMSecondaryViewControllerTests.m in Sources */,
+				216471C317C79AC10033CB9D /* MMViewControllerTestCase.m in Sources */,
+				216471C717C79C3B0033CB9D /* MMViewController.m in Sources */,
 				2164706B17C798060033CB9D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,14 +438,6 @@
 				2164703A17C797B20033CB9D /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		2164704F17C797B30033CB9D /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2164705017C797B30033CB9D /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 		2164706717C798060033CB9D /* InfoPlist.strings */ = {

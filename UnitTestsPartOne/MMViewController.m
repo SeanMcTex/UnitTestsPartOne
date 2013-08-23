@@ -16,8 +16,9 @@
 
 - (void)viewDidLoad
 {
+    // Uncomment the following line to see a test failure
+    // NSAssert( NO, @"Something went horribly wrong!");
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
 }
 
 - (void)didReceiveMemoryWarning
